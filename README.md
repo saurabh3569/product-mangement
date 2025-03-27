@@ -9,9 +9,11 @@ This is a full-stack Product Management application built with Node.js/Express (
 1. Navigate to `server/` directory
 2. Install dependencies: `npm install`
 3. Create `.env` file with:
-   MONGO_URI=your_mongodb_connection_string
-   PORT=5000
-   JWT_SECRET=your_jwt_secret_here
+
+- MONGO_URI=your_mongodb_connection_string
+- PORT=5000
+- JWT_SECRET=your_jwt_secret_here
+
 4. Run the server: `npm start` or `npm run dev`
 
 ## Frontend Setup
