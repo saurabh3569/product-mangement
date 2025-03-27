@@ -20,16 +20,16 @@ This is a full-stack Product Management application built with Node.js/Express (
 
 1. Navigate to `client/` directory
 2. Install dependencies: `npm install`
+3. Create `.env` file with:
+
+- REACT_APP_API_URL=http://localhost:5000
+
 3. Run the app: `npm start`
 
 ## API Endpoints
 
 - POST `/auth/register` - Register a new user
-  - Request: `{ "email": "string", "password": "string", "name": "string" }`
-  - Response: `{ "token": "jwt", "user": { "id": "string", "email": "string", "name": "string" } }`
 - POST `/auth/login` - Login a user
-  - Request: `{ "email": "string", "password": "string" }`
-  - Response: `{ "token": "jwt", "user": { "id": "string", "email": "string", "name": "string" } }`
 - POST `/products` - Create a new product (Protected)
 - GET `/products` - Fetch all products (Protected)
 - GET `/products/:id` - Fetch a specific product (Protected)
